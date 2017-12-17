@@ -6,7 +6,7 @@ int n = 0;
 
 void print(int *a)
 {
-	for(int i = 0; i != 3; i++)
+	for(int i = 0; i != n; i++)
 		cout << a[i] << "  ";
 	cout << endl;
 }
